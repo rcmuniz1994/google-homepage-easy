@@ -1,53 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <meta charset=""></meta>
+    <link rel="stylesheet" type="text/css" href="./assets/app.css" />
   </head>
   <body>
     <header id="google-header">
-      <a>Gmail</a>
-      <a>Imagens</a>
-      <a>Menu</a>
-      <a>
+      <a class="header-menu-item">Gmail</a>
+      <a class="header-menu-item">Imagens</a>
+      <a class="header-menu-item">Menu</a>
+      <a class="header-menu-item">
         <img id="eren-img" alt="Loren Ipsum Logo" src="https://pm1.narvii.com/6435/24ffccd4d505f0669aab76d1a28fb0c2ddd1eb9d_hq.jpg">
       </a>
     </header>
     <main id="google-main-content">
       <h1>Google</h1>
-      <form>
+      <div>
         <input type="text">
-        <button>Pesquisa Google</button>
-        <button>Estou com sorte</button>
-      </form>
+      </div>
+      <div>
+        <button class="google-button">Pesquisa Google</button>
+        <button class="google-button">Estou com sorte</button>
+      </div>
     </main>
     <footer id="google-footer">
-      <p>Brasil</p>
+      <p id="country-info">Brasil</p>
       <div id="google-footer-links">
-        <ul id="marketing-links">
-          <li>
-            <a>Publicidade</a>
-          </li>
-          <li>
-            <a>Negócios</a>
-          </li>
-          <li>
-            <a>Sobre</a>
-          </li>
-          <li>
-            <a>Como funciona a pesquisa</a>
-          </li>
-        </ul>
-        <ul id="privacy-links">
-          <li>
-            <a>Privacidade</a>
-          </li>
-          <li>
-            <a>Termos</a>
-          </li>
-          <li>
-            <a>Configurações</a>
-          </li>
-        </ul>
+        <div id="marketing-links">
+          <a class="marketing-links-item">Publicidade</a>
+          <a class="marketing-links-item">Negócios</a>
+          <a class="marketing-links-item">Sobre</a>
+          <a class="marketing-links-item">Como funciona a pesquisa</a>
+        </div>
+        <div id="privacy-links">
+          <a class="privacy-links-item">Privacidade</a>
+          <a class="privacy-links-item">Termos</a>
+          <a class="privacy-links-item">Configurações</a>
+        </div>
       </div>
     </footer>
   </body>
