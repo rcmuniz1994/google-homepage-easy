@@ -80,6 +80,10 @@ body{
   padding: 0 8px;
 }
 
+#keyboard-icon:hover, #keyboard-voice:hover {
+  cursor: pointer;
+}
+
 #apps-icon:hover {
   color: #000;
   opacity: 1;
